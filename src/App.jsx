@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <Example></Example> */}
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/create-login" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route
           path="/create-account"
@@ -25,9 +25,7 @@ function App() {
 }
 
 const Home = () => {
-  const dispatch = useDispatch();
   const admin = useSelector((state) => state.login);
-  // check if uer is already logged in
 
   return (
     <>

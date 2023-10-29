@@ -67,10 +67,6 @@ export default function Login() {
           />
           <small className="text-red-500">{err.password}</small>
         </div>
-        <div className="flex justify-center gap-4">
-          <input onChange={handleChange} name="remember" type="checkbox" />
-          remember
-        </div>
         <button className="border-black border" type="submit">
           log in
         </button>
@@ -78,7 +74,8 @@ export default function Login() {
       <NavLink to="/create-account" className="underline">
         create account?
       </NavLink>
-      <NavLink to="/" className="underline">
+      <br />
+      <NavLink to="/create-login" className="underline">
         home
       </NavLink>
     </div>
