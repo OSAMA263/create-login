@@ -1,7 +1,9 @@
-a small routing with create user for &login for uswing redux and LS
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>a small app Create user and login</h1>
+<br/>
+here is what u can do:
+- create user with email || userName & password
+- login with the userName and password
+- there is validation to check if the user and password matches or if the user name is alreadt used
+- if your logged in then it will show the usssername
+<br/>
+all the accounts are saved in the local storage 
